@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400;600&family=Epilogue:wght@500;700&family=Fraunces:ital,wght@1,700;1,900&family=Inter:wght@400;700;800&family=Josefin+Sans:ital,wght@0,400;1,100;1,300;1,600&family=League+Spartan:wght@400;500;700&family=Manrope:wght@600;800&family=Montserrat:wght@700&family=Open+Sans:wght@400;600;700&family=Overpass:wght@300;600&family=Poppins:ital,wght@0,600;0,700;1,200;1,400&family=Raleway:ital,wght@0,700;1,400&family=Rubik:ital,wght@0,400;0,500;1,300&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <section class="contai">
+     <div class="top">
+      <div class="content">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>sign-up for our 30-day trial. No credit card required.</p>
+      <p class="error"></p>
+    </div>
+     </div>
+     <div class="payment-card">
+      <div class="title">
+        <p>100K PAGEVIEWS</p>
+        <nav>
+        <h2>$16.00 </h2>
+        <span>/month</span>
+      </nav>
+      </div>
+      
+      <div class="slidecontainer">
+        <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <div class="middle-sec">
+        <p>Monthly Billing</p>
+        
+      <div class="container">
+        <input id="checkbox" name="checkbox" type="checkbox">
+        <label class="label" for="checkbox">
+                  </label>
+      
+      </div>
+      <p>Yearly Billing</p>
+      <p class="design">25% discount</p>
+    </div>
+    <hr>
+      
+      
+      <div class="description">
+        <div class="left">
+          <div class="cont">
+            <img src="images/icon-check.svg" alt="img">
+            <p>Unlimited websites</p>
+          </div>
+          <div class="cont">
+            <img src="images/icon-check.svg" alt="img">
+            <p>100% data ownership</p>
+          </div>
+          <div class="cont">
+            <img src="images/icon-check.svg" alt="img">
+            <p>Email reports</p>
+          </div>
+          
+          
+        </div>
+        <div class="right">
+          <button class="ctn">Start my trial</button>
+        </div>
+        
+      </div>
+     </div>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hanzo</a>.
+  </div> 
+<script src="app.js"></script>
+</body>
+</html>
